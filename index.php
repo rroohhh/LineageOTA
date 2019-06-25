@@ -26,10 +26,7 @@
 
     use \JX\CmOta\CmOta;
 
-    if( isset($_SERVER['HTTPS'] ) )
-        $protocol = 'https://';
-    else
-        $protocol = 'http://';
+    $protocol = 'https://';
 
     $app = new CmOta();
     $app
